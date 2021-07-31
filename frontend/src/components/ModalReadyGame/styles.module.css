@@ -1,0 +1,45 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+.modalWrapper{
+    width: 90%;
+    max-width: 550px;
+    height: 320px;
+
+    background: white;
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modalWrapper h3{
+    text-align: center;
+}
+.modalWrapper h2{
+    text-align: center;
+}
+.modalWrapper input{
+    width: 75%;
+    max-width: 250px;
+    height: 12%;
+
+    border-radius: 7px;
+
+    font-size: 1.4rem;
+}

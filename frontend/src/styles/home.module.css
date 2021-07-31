@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 75%;
+    max-width: 250px;
+    height: 7%;
+
+    border-radius: 7px;
+
+    font-size: 1.4rem;
+}
+.input{
+    width: 75%;
+    max-width: 250px;
+    height: 7%;
+
+    border-radius: 7px;
+
+    margin: 40px 0px 12px;
+
+    font-size: 1.4rem;
+}
