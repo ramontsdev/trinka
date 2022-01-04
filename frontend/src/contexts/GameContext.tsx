@@ -81,7 +81,7 @@ const initialState: State = {
   finishRound: false
 }
 
-const url = /* 'https://backend-trinka.herokuapp.com/' || */'http://10.0.0.105:7000'
+const url = 'https://backend-trinka.herokuapp.com/' // || 'http://192.168.0.101:7000'
 let socket: Socket
 export function GameContextProvider({ children }: Props) {
   const [state, dispatch] = useReducer(reducer, initialState)
